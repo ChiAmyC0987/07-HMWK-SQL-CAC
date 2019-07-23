@@ -5,7 +5,14 @@
 -- Modify this code to update the DB schema diagram.
 -- To reset the sample schema, replace everything with
 -- two dots ('..' - without quotes).
-
+```
+DROP TABLE IF EXISTS departments;
+DROP TABLE IF EXISTS dept_manager;
+DROP TABLE IF EXISTS dept_emp;
+DROP TABLE IF EXISTS employees;
+DROP TABLE IF EXISTS titles;
+DROP TABLE IF EXISTS salaries;
+```
 CREATE TABLE "departments" (
     "dept_no" VARCHAR(25) NOT Null,
     "dept_name" VARCHAR(25) NOT NULL,
